@@ -1,36 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-        <meta description="Portfolio" content="Designing my first full landing page for a portfolio website">
-        <title>Tumaini's Portfolio</title>
-    </head>
-    <body>
-        <main>
-            
-            <header>
-                <nav>
-                    <div class="nav-brand">
-                        <a href="#home">Tumaini</a>
-                    </div>
-                    <ul class="nav-links">
-                        <li><a href="/home">#home</a></li>
-                        <li><a href="/works">#works</a></li>
-                        <li><a href="/about-me">#about-me</a></li>
-                        <li><a href="/contact">#contact</a></li>
-                        <li><a href="/home">#home</a></li>
-                        <li class="language-selector">
-                            <span class="default-lang">EN</span>
-                            <ul class="lang-options">
-                                <li><a href="#" lang="en">EN</a></li>
-                                <li><a href="#" lang="en">CH</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <section></section>
-        </main>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tumaini's Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content area -->
+  <main class="main">
+    <section>
+      <h1 class="header">Cindy Tumaini</h1>
+      <p id="paragraph">Hello! Welcome to my portfolio. You will find my technical skills below</p>
+
+      <!-- Skills Table -->
+      <div class="skills">
+        <h3 class="header">Technical Skills</h3>
+        <table id="skills-table">
+          <thead>
+            <tr id="skills-header">
+              <th>Skill</th>
+              <th>Experience</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Python</td>
+              <td>1 year</td>
+            </tr>
+            <tr>
+              <td>Databases</td>
+              <td>6 months</td>
+            </tr>
+            <tr>
+              <td>HTML &amp; CSS</td>
+              <td>4 weeks</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3 class="header">Sidebar</h3>
+      <p>Additional links or information here.</p>
+    </aside>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 My Website</p>
+    <div class="footer-links">
+      <a href="https://github.com/TumainiC" target="_blank">Github</a>
+      <a href="https://ke.linkedin.com/in/cindy-tumaini" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+</body>
 </html>
